@@ -1,5 +1,5 @@
 from typing import List
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
