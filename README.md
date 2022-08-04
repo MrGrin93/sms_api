@@ -1,18 +1,18 @@
 # sms_api
 
--Migrations:
-  -To init:
+>-Migrations:
+>>-To init:
 
-  check  project/migrations/env.py (import models)
+>>>check  project/migrations/env.py (import models)
 
-  alembic revision --autogenerate -m "init"
+>>>alembic revision --autogenerate -m "init"
 
-  alembic upgrade head
+>>>alembic upgrade head
 
-  -To upgrade:
+>>-To upgrade:
 
-  Change model, or add
+>>>Change model, or add
 
-  alembic revision --autogenerate -m "comment"
+>>>alembic revision --autogenerate -m "comment"
 
-  alembic upgrade head
+>>>alembic upgrade head
